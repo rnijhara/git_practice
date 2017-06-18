@@ -2,7 +2,7 @@ class UserLogin {
     
     private String userName;
 
-    private String password;
+    private String pwd;
     
     private String email;
 
