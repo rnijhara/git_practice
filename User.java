@@ -3,6 +3,8 @@ class User {
 
     private String lastName;
 
+    private String phoneNumber;
+
     public String getFirstName() {
         return firstName;
     }
@@ -13,6 +15,13 @@ class User {
 
     public String getLastName() {
         return lastName;
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public void setLastName(String lastName) {
